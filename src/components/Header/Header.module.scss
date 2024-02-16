@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    height: 25vh;
+}
+
+@media screen and (max-width: 968px){
+    .container{
+        height: auto;
+    }
+}
